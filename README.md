@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2a7b9cac-f07f-44ab-83d2-b23f405635dd)# VEGADELTA VOLATILITY MODELLING - DEMO VERSION
+# VEGADELTA VOLATILITY MODELLING - DEMO VERSION
 
 
 vegadelta.com by TheRealNTM
@@ -18,7 +18,6 @@ This **Streamlit**‑based application lets you model, visualise and interrogate
 * Parametric extrapolation technique that extends the market surface where strikes are sparse.
 
 ### Market Data Auto‑Fill
-![image](https://github.com/user-attachments/assets/0da53f37-b03c-462b-97c0-9f25d7f630b2)
 
 * Dividend yields and risk‑free term structure are fetched automatically from the latest data.
 
