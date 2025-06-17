@@ -2,6 +2,7 @@
 
 
 vegadelta.com by TheRealNTM
+
 Contact: ntm@vegadelta.com
 
 This **Streamlit**‑based application lets you model, visualise and interrogate an options *volatility surface* for any listed equity or index. Simply enter a ticker and explore the tools below.
