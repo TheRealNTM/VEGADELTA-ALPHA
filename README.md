@@ -1,45 +1,71 @@
-**VEGADELTA VOLATILITY MODELLING** - PRE RELEASE VERSION
+VEGADELTA VOLATILITY MODELLING - PRE RELEASE  - If you want to model the vol surface of options this is the place to do it! The UI is based in streamlit which makes it great for simple use.
+Just input a ticker and get a bunch of info about the options. The output is 
+1. **Volatility surface** (you can change a heap of parameters to make it better)Add commentMore actions
+   - Stochastic volatility inspired surface
+   - Automatic dividend and risk free rate calculation
+   - Nice UI
+   - IV lookup
+   - More random stuff
+2. **Volatility smile**(you can also change a bunch of parameters to make it better here too)
+   - Comparison of volatility smiles
+   - More random shit
+3. **Greeks Analyser**
+   - First, second and third derivative Greeks (Incl vanna, speed, charm, etc, etc)
+   - 2D plotting of greeks compared to strike
+   - 3D greek surface compared to strike and expiration
+Huge thanks to GD for the initial mock up!
+
 vegadelta.com
 
-This Streamlit‑based application lets you model, visualise and interrogate the full volatility surface for listed equity or index options. Enter a ticker and explore:
 
+# Options Volatility Surface Toolkit
 
-**Volatility surface** (all modelling hyper‑parameters—such as smoothing window, fit method and extrapolation anchors—are user‑adjustable)
+This **Streamlit**‑based application lets you model, visualise and interrogate an options *volatility surface* for any listed equity or index. Simply enter a ticker and explore the tools below.
 
-  ** - Stochastic‑volatility**‑inspired surface (SVIS, a parametric extrapolation technique often used when market strikes are sparse)
+## Key Features
 
-  **Automatic dividend and market rate estimation** (values are pulled automatically from the latest market data for dividends and for the yield structure)
+### Volatility Surface
 
-  **Clean UI for rapid experimentation**
+* Interactive 3‑D surface with user‑tunable modelling hyper‑parameters (smoothing window, fit method, extrapolation anchors, etc.).
 
-  **Implied‑volatility** (IV) lookup for any strike/expiry
+### Stochastic‑Volatility‑Inspired Surface (SVIS)
 
-  **Miscellaneous analytics for additional exploratory work**
+* Parametric extrapolation technique that extends the market surface where strikes are sparse.
 
+### Market Data Auto‑Fill
 
-**Smile analytics**
+* Dividend yields and risk‑free term structure are fetched automatically from the latest data.
 
-  **Volatility smile** (parameters including strike range, moneyness buckets and smoothing splines are fully configurable)
+### Implied‑Volatility (IV) Lookup
 
-  **Comparison of volatility smiles across dates**
+* Query IV for any strike/expiry pair.
 
-  **Experimental utilities for advanced users**
+### Miscellaneous Analytics
 
+* Extra utilities for exploratory analysis.
 
-**Greeks analyser**
+## Smile Analytics
 
-  **First‑, second‑ and third‑order Greeks** (including vanna – sensitivity of delta to volatility, speed – third‑order sensitivity of price to the underlying, charm – rate of change of delta over time)
+* **Volatility smile**: fully configurable strike range, moneyness buckets and spline smoothing.
+* **Smile comparison**: overlay smiles from different dates or underlyings.
+* Experimental utilities for advanced users.
 
-  **2‑D plots** of each Greek versus strike
+## Greeks Analyser
 
-  **3‑D surfaces of Greeks versus strike** and expiration
+* First‑, second‑ and third‑order Greeks, including
 
-  **Huge thanks to GD for the initial mock‑up!!!**
+  * **Vanna** – sensitivity of delta to volatility
+  * **Speed** – third‑order sensitivity of price to the underlying
+  * **Charm** – rate of change of delta over time
+* 2‑D plots of each Greek versus strike.
+* 3‑D Greek surfaces versus strike and expiration.
 
+*Huge thanks to **GD** for the initial mock‑up!*
 
-Initial loading can take a couple seconds because the code has not yet been optimised; this will improve in future releases.
+## Performance
 
-Notes on Data Requests
+> Initial load can exceed **10 seconds** because the code is not yet optimised — improvements are planned.
 
-(To be completed)
+## Notes on Data Requests
 
+*To be completed*
