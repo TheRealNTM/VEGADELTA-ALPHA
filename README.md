@@ -13,10 +13,12 @@ This **Streamlit**‑based application lets you model, visualise and interrogate
 ### Volatility Surface
 
 * Interactive 3‑D surface with user‑tunable modelling hyper‑parameters (smoothing window, fit method, extrapolation anchors, etc.).
+![image](https://github.com/user-attachments/assets/0978e368-c728-4724-8987-eae031159a6e)
 
 ### Stochastic‑Volatility‑Inspired Surface (SVIS)
 
 * Parametric extrapolation technique that extends the market surface where strikes are sparse.
+![Uploading image.png…]()
 
 ### Market Data Auto‑Fill
 
@@ -26,7 +28,8 @@ This **Streamlit**‑based application lets you model, visualise and interrogate
 
 ### Implied‑Volatility (IV) Lookup
 
-* Query IV for any strike/expiry pair.![Skjermbilde 2025-06-17 021958](https://github.com/user-attachments/assets/ef43aede-087f-4114-8182-39297bf5c6e3)
+* Query IV for any strike/expiry pair.
+![Skjermbilde 2025-06-17 021958](https://github.com/user-attachments/assets/ef43aede-087f-4114-8182-39297bf5c6e3)
 
 
 ### Miscellaneous Analytics
