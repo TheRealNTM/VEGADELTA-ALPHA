@@ -1,21 +1,42 @@
-Heyhey - If you want to model the vol surface of options this is the place to do it! The UI is based in streamlit which makes it great for simple use.
-Just input a ticker and get a bunch of info about the options. The output is 
-1. Volatility surface (you can change a heap of parameters to make it better)
-   - Stochastic volatility inspired surface
-   - Automatic dividend and risk free rate calculation
-   - Nice UI
-   - IV lookup
-   - More random stuff
-2. Volatility smile(you can also change a bunch of parameters to make it better here too)
-   - Comparison of volatility smiles
-   - More random shit
-3. Greeks Analyser
-   - First, second and third derivative Greeks (Incl vanna, speed, charm, etc, etc)
-   - 2D plotting of greeks compared to strike
-   - 3D greek surface compared to strike and expiration
-Huge thanks to GD for the initial mock up!
+Options Volatility Surface Toolkit
 
-PS: The loading times are really slow(>10sec sometimes) because I havent optimised anything really well. Dont worry it can be better.
+This Streamlit‑based application lets you model, visualise and interrogate the full volatility surface for listed equity or index options. Enter a ticker and explore:
 
-## Notes on Data Requests
+**Volatility surface** (all modelling hyper‑parameters—such as smoothing window, fit method and extrapolation anchors—are user‑adjustable)
+
+**Stochastic‑volatility**‑inspired surface (SVIS, a parametric extrapolation technique often used when market strikes are sparse)
+
+**Automatic dividend and market rate estimation** (values are pulled automatically from the latest market data for dividends and for the yield structure)
+
+**Clean UI for rapid experimentation
+**
+**Implied‑volatility** (IV) lookup for any strike/expiry
+
+**Miscellaneous analytics for additional exploratory work**
+
+**Smile analytics**
+
+**Volatility smile** (parameters including strike range, moneyness buckets and smoothing splines are fully configurable)
+
+**Comparison of volatility smiles across dates**
+
+**Experimental utilities for advanced users**
+
+**Greeks analyser**
+
+**First‑, second‑ and third‑order Greeks** (including vanna – sensitivity of delta to volatility, speed – third‑order sensitivity of price to the underlying, charm – rate of change of delta over time)
+
+**2‑D plots** of each Greek versus strike
+
+**3‑D surfaces of Greeks versus strike** and expiration
+
+**Huge thanks to GD for the initial mock‑up!!!
+**
+Performance
+
+Initial loading can take a couple seconds because the code has not yet been optimised; this will improve in future releases.
+
+Notes on Data Requests
+
+(To be completed)
 
