@@ -6,7 +6,7 @@ This Streamlit‑based application lets you model, visualise and interrogate the
 
 **Volatility surface** (all modelling hyper‑parameters—such as smoothing window, fit method and extrapolation anchors—are user‑adjustable)
 
-  **Stochastic‑volatility**‑inspired surface (SVIS, a parametric extrapolation technique often used when market strikes are sparse)
+  ** - Stochastic‑volatility**‑inspired surface (SVIS, a parametric extrapolation technique often used when market strikes are sparse)
 
   **Automatic dividend and market rate estimation** (values are pulled automatically from the latest market data for dividends and for the yield structure)
 
