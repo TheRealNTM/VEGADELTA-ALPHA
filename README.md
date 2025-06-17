@@ -56,7 +56,7 @@ This **Streamlit**‑based application lets you model, visualise and interrogate
 * ![image](https://github.com/user-attachments/assets/5324cf20-350b-4066-9d50-99e190b1e106)
 
 * 3‑D Greek surfaces versus strike and expiration.
-![Uploading image.png…]()
+![Skjermbilde 2025-06-17 022136](https://github.com/user-attachments/assets/c31c0900-7f52-404b-a525-54e169eb3113)
 
 *Huge thanks to **GD** for the initial mock‑up!*
 
